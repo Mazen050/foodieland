@@ -1,0 +1,122 @@
+.collections{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.collection-imgs{
+    position:relative;
+    margin:50px;
+    margin-bottom:0px;
+    width:fit-content;
+    display:grid;
+    grid-auto-columns: 88px;
+    grid-auto-rows:60px;
+    grid-column-gap:1px;
+    grid-row-gap:2px;
+    border-radius:10px;
+    cursor:pointer;
+}
+.cover{
+    display:none;
+    background-color: black;
+    position:absolute;
+    z-index:9;
+    grid-row-start:1;
+    grid-row-end: span 4;
+    width:100%;
+    height:100%;
+}
+.collection-imgs:hover .cover{
+    display:block;
+    opacity:0.2;
+    
+}
+.coll-info{
+    height: fit-content;
+    grid-column-start:1;
+    grid-column-end:4;
+
+}
+
+.coll-img-big{
+    display:grid;
+    width:100%;
+    height:100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    object-fit: cover;
+    grid-row-end: span 4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+/* .coll-img-div{
+    
+} */
+.coll-img-div{
+    display:grid;
+    position:relative;
+    width:100%;
+    object-fit: cover;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-end: span 2;
+
+
+}
+.coll-img-top{
+    display:grid;
+    width:100%;
+    height:100%;
+    position:absolute;
+    object-fit: cover;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-top-right-radius: 5px;
+}
+.coll-img-bot{
+    display:grid;
+    width:100%;
+    height:100%;
+    position:absolute;
+    object-fit: cover;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    border-bottom-right-radius: 5px;
+}
+.coll-info h4{
+    margin-bottom: 0px;
+}
+
+.coll-info label{
+    font-size:12px;
+    color:#ABA8A8;
+}
+
+.collections-title{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.collections-title h1{
+    font-size: 44px;
+    margin-bottom: 0px;
+    background: linear-gradient(to right, #F2C593, #8A3282);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.title-div{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.collections-title p{
+    width:400px;
+    display:flex;
+    text-align: center;
+}

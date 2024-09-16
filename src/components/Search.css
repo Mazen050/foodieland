@@ -1,0 +1,16 @@
+.gradien{
+    width:100%;
+    overflow: hidden;
+}
+.search-div{
+    direction: rtl;
+
+}
+.search-field{
+    position:relative;
+    top:-30px;
+    
+}
+body{
+    overflow:auto;
+}

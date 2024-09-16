@@ -1,0 +1,32 @@
+.masonry-imgs{
+    column-count:3;
+    columns:265px;
+    padding-inline:72px;
+    padding-block:16px;
+}
+.item{
+    position:relative;
+    display:block;
+    width:100%;
+}
+
+.item-div{
+    position:relative;
+    cursor:pointer;
+    height:fit-content;
+    margin-bottom: 1em;
+}
+.item-cover{
+    
+    position: absolute;
+    top:0;
+    left:0;
+    display:none;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.1);
+    
+}
+.item-div:hover  .item-cover,.item-cover:hover{
+    display:inline-block;
+}

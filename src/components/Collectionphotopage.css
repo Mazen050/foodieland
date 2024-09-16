@@ -1,0 +1,25 @@
+.collections-title-collection{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.collections-title-collection h1{
+    font-size: 44px;
+    margin-bottom: 0px;
+    background: linear-gradient(to right, #F2C593, #8A3282);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.title-div-collection{
+    display:flex;
+    justify-content: center;
+}
+
+.collections-title-collection p{
+    margin-top:5px;
+}
